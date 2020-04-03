@@ -68,10 +68,10 @@ Output:
 
 Задана система массового обслуживания со следующими характеристиками:
 
-* интенсивность поступления ![eq](https://latex.codecogs.com/svg.latex?\large&space;\lambda&space;=&space;29)
-* каналов обслуживания ![eq](https://latex.codecogs.com/svg.latex?\large&space;m&space;=&space;5)
-* интенсивность обслуживания ![eq](https://latex.codecogs.com/svg.latex?\large&space;\mu&space;=&space;6)
-* максимальный размер очереди ![eq](https://latex.codecogs.com/svg.latex?\large&space;n&space;=&space;14)
+* интенсивность поступления ![eq](https://latex.codecogs.com/png.latex?\large&space;\lambda&space;=&space;29)
+* каналов обслуживания ![eq](https://latex.codecogs.com/png.latex?\large&space;m&space;=&space;5)
+* интенсивность обслуживания ![eq](https://latex.codecogs.com/png.latex?\large&space;\mu&space;=&space;6)
+* максимальный размер очереди ![eq](https://latex.codecogs.com/png.latex?\large&space;n&space;=&space;14)
 
 Изначально требований в системе нет.
 
