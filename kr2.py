@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.integrate import quad as integrate
 
 
 class SMO:
@@ -20,6 +21,12 @@ class SMO:
         B = np.zeros(M_.shape[0])
         B[-1] = 1
         self.__stable_prob = np.linalg.inv(M_).dot(B)
+
+    def __get_sr_t_no_o4(self):
+        new_matrix = self.__matrix[:self.m+1, :self.m+1]
+        ftu = sum([sum([self.__matrix[i, j] for j in range(self.m+1, self.m+self.n+1)]) for i in range(self.m+1)])
+        tu = integrate(lambda x: x * ftu, 0, np.inf)
+        return tu[0]
 
     def __init__(self, lbd, m, mu, n):
         self.lbd = lbd
@@ -45,8 +52,7 @@ class SMO:
         sum([self.m * self.__stable_prob[i] for i in range(self.m + 1, self.m + self.n + 1)]))
     p_no_o4 = property(lambda self: sum(self.__stable_prob[:self.m]))
     sr_t_prost = property(lambda self: 1 / self.lbd)
-    sr_t_no_o4 = property(lambda self: sum(
-        [i + 1 / (self.m * self.lbd) * self.__stable_prob[i] for i in range(self.m)]))
+    sr_t_no_o4 = property(__get_sr_t_no_o4)
 
 
 if __name__ == '__main__':
