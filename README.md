@@ -96,16 +96,16 @@ e) Найдите среднее время в очереди.
 ![Среднее время в очереди](https://sun9-38.userapi.com/c206520/v206520259/cf16f/0XjdLs-Oxws.jpg)
 
 f) Найдите среднее число занятых каналов.  
-![Ср. число занятых каналов](https://sun9-68.userapi.com/c206520/v206520259/cf176/odayPhwgd1o.jpg)
+![Ср. число занятых каналов](https://sun9-32.userapi.com/c858128/v858128640/1bae7d/vqXxyMGmNYE.jpg)
 
 g) Найдите вероятность того, что поступающая заявка не будет ждать в очереди.  
-![Не будет ждать в очереди](https://sun9-44.userapi.com/c206520/v206520259/cf187/ghVvvqDXpbU.jpg)
+![Не будет ждать в очереди](https://sun9-13.userapi.com/c858128/v858128640/1bae75/8KoGCWLHHHw.jpg)
 
 h) Найти среднее время простоя системы массового обслуживания.  
-![Время простоя](https://sun9-55.userapi.com/c206520/v206520259/cf1aa/riIjToHIOqI.jpg)
+![Время простоя](https://sun9-37.userapi.com/c858128/v858128640/1bae6e/yr-OUjdrr1g.jpg)
 
 i) Найти среднее время, когда в системе нет очереди.  
-![Время без очереди](https://sun9-63.userapi.com/c206520/v206520259/cf1c4/KJXJjxKys5A.jpg)  
+![Время без очереди](https://sun9-4.userapi.com/c858128/v858128640/1bae67/kYATbjywB-w.jpg)  
 
 Output:  
-![Output](https://sun9-19.userapi.com/c206520/v206520845/ccdf0/JEt9v0Vk-Mw.jpg)
+![Output](https://sun9-52.userapi.com/c858128/v858128640/1bae5e/DKzgCokgBIk.jpg)
