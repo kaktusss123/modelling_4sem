@@ -44,7 +44,7 @@ class SMO:
         [i * self.__stable_prob[i] for i in range(1, self.m + 1)]) +
         sum([self.m * self.__stable_prob[i] for i in range(self.m + 1, self.m + self.n + 1)]))
     p_no_o4 = property(lambda self: sum(self.__stable_prob[:self.m]))
-    sr_t_prost = property(lambda self: 1 / self.mu)
+    sr_t_prost = property(lambda self: 1 / self.lbd)
     sr_t_no_o4 = property(lambda self: sum(
         [i + 1 / (self.m * self.lbd) * self.__stable_prob[i] for i in range(self.m)]))
 
